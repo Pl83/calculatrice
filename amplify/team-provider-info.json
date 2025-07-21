@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-calculator-dev-d656a-authRole",
+      "UnauthRoleArn": "arn:aws:iam::038785695261:role/amplify-calculator-dev-d656a-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::038785695261:role/amplify-calculator-dev-d656a-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-calculator-dev-d656a-deployment",
+      "UnauthRoleName": "amplify-calculator-dev-d656a-unauthRole",
+      "StackName": "amplify-calculator-dev-d656a",
+      "StackId": "arn:aws:cloudformation:us-west-1:038785695261:stack/amplify-calculator-dev-d656a/999b15f0-662b-11f0-ae80-0698b9c05abd",
+      "AmplifyAppId": "d19i7onhi83k5a"
+    }
+  },
+  "zorgos": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-calculator-zorgos-21944-authRole",
+      "UnauthRoleArn": "arn:aws:iam::038785695261:role/amplify-calculator-zorgos-21944-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::038785695261:role/amplify-calculator-zorgos-21944-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-calculator-zorgos-21944-deployment",
+      "UnauthRoleName": "amplify-calculator-zorgos-21944-unauthRole",
+      "StackName": "amplify-calculator-zorgos-21944",
+      "StackId": "arn:aws:cloudformation:us-west-1:038785695261:stack/amplify-calculator-zorgos-21944/e2163b20-662b-11f0-b4ee-02123d5a3599",
+      "AmplifyAppId": "d19i7onhi83k5a"
+    },
+    "categories": {
+      "function": {
+        "calculator39cc5ea7": {}
+      }
+    }
+  }
+}
