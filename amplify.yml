@@ -1,0 +1,31 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run test # ✅ Run your frontend unit tests
+        - npm run build # Build Vue app after tests
+  artifacts:
+    baseDirectory: dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**
+
+backend:
+  phases:
+    build:
+      commands:
+        - cd amplify/backend/function/calculator39cc5ea7/src
+        - pip install -r requirements.txt -t .
+  artifacts:
+    baseDirectory: amplify
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - amplify/**/*
